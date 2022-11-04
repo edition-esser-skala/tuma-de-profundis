@@ -5,7 +5,7 @@
 
 \book {
   \bookpart {
-    \section "Adeste animæ"
+    \section "De Profundis"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
@@ -13,33 +13,33 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \AdesteSoprano }
+            \new Voice = "Soprano" { \dynamicUp \DeProfundisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \AdesteSopranoLyrics
+          \new Lyrics \lyricsto Soprano \DeProfundisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \AdesteAlto }
+            \new Voice = "Alto" { \dynamicUp \DeProfundisAlto }
           }
-          \new Lyrics \lyricsto Alto \AdesteAltoLyrics
+          \new Lyrics \lyricsto Alto \DeProfundisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \AdesteTenore }
+            \new Voice = "Tenore" { \dynamicUp \DeProfundisTenore }
           }
-          \new Lyrics \lyricsto Tenore \AdesteTenoreLyrics
+          \new Lyrics \lyricsto Tenore \DeProfundisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \AdesteBasso }
+            \new Voice = "Basso" { \dynamicUp \DeProfundisBasso }
           }
-          \new Lyrics \lyricsto Basso \AdesteBassoLyrics
+          \new Lyrics \lyricsto Basso \DeProfundisBassoLyrics
         >>
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \AdesteOrgano
+          \DeProfundisOrgano
         }
-        \new FiguredBass { \AdesteBassFigures }
+        \new FiguredBass { \DeProfundisBassFigures }
       >>
     }
   }

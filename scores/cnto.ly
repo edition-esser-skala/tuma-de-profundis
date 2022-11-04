@@ -6,14 +6,14 @@
 
 \book {
   \bookpart {
-    \section "Adeste animæ"
+    \section "De Profundis"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Cornetto"
-          \AdesteCornetto
+          \DeProfundisCornetto
         }
       >>
     }
