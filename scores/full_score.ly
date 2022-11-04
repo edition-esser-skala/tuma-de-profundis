@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "De profundis"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score {
       <<
@@ -81,7 +81,7 @@
         \new FiguredBass { \DeProfundisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

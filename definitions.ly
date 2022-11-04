@@ -2,11 +2,15 @@
 
 #(define option-movement-title-format "title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
-tempoDeProfundis = \tempoMarkup "X"
+tempoDeProfundis = \tempoMarkup "Adagio"
+tempoFiant = \tempoMarkup "Andante"
+tempoSi = \tempoMarkup "Larghetto"
+tempoQuia = \tempoMarkup "Adagio"
+tempoEtIpse = \tempoMarkup "Allegro"
 
 
 \include "notes/cnto.ly"
